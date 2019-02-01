@@ -1,3 +1,4 @@
+document.addEventListener("DOMContentLoaded", function(event) { 
 var numOfRandomNumbers
 var numSize
 var numSet = []
@@ -30,4 +31,5 @@ while(Number.isInteger(numSize) == false) {
 
 calculateRandomNum(numOfRandomNumbers,numSize)
 
-document.getElementById("Numbers").innerHTML = "These are your numbers,<br>" + numSet;
+document.getElementById("Numbers").innerHTML = "These are your numbers,<br> <br>" + numSet;
+  });
